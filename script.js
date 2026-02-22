@@ -3,7 +3,7 @@ const calculateSimpleInterest = (principal, rate, time) => {
 };
 
 const calculateTotalPayableAmount = (principal, interestAmount) => {
-  return principal - interestAmount; // error intencional
+  return principal + interestAmount; // error intencional
 };
 
 const calculate = () => {
